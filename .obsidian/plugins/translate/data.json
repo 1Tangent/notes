@@ -118,7 +118,9 @@
       "premium": false
     },
     "google_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -264,7 +266,9 @@
       "version": "1.1.0"
     },
     "fanyi_youdao": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "app_id": "",
       "auto_translate": false,
@@ -387,7 +391,9 @@
       "version": "1.0.0"
     },
     "deepl": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -460,7 +466,9 @@
       "version": "1.0.3"
     },
     "lingva_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "host": "translate.plausibility.cloud",
       "auto_translate": false,
       "auto_translate_interval": 500,

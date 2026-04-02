@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "7352a51a4a32968f",
+        "id": "bc694f78161b964a",
         "type": "tabs",
         "children": [
           {
-            "id": "021843280a73521f",
+            "id": "37bebfc8743cc78c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "references/An Introduction To Manifolds.pdf",
+                "page": 23,
+                "left": 88,
+                "top": 718,
+                "zoom": 1.1360649144510322
+              },
+              "icon": "lucide-file-text",
+              "title": "An Introduction To Manifolds"
+            }
+          },
+          {
+            "id": "c3333b626e791dcf",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -19,68 +35,8 @@
               "title": "homework"
             }
           }
-        ]
-      },
-      {
-        "id": "64bd9e027687cbce",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "85ab759e09d83d27",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "references/An Introduction To Manifolds.pdf",
-                "page": 22,
-                "left": 88,
-                "top": 726,
-                "zoom": 0.7549911714934417
-              },
-              "icon": "lucide-file-text",
-              "title": "An Introduction To Manifolds"
-            }
-          }
-        ]
-      },
-      {
-        "id": "bb2b93473db601af",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a6b608df7e4c72a0",
-            "type": "leaf",
-            "state": {
-              "type": "translator-view",
-              "state": {
-                "language_from": "auto",
-                "language_to": "zh",
-                "translation_service": "fanyi_baidu",
-                "auto_translate": false,
-                "apply_glossary": false,
-                "view_mode": 0,
-                "filter_mode": 0,
-                "show_attribution": false,
-                "top_buttons": [
-                  "change-service",
-                  "automatic-translation",
-                  "change-layout",
-                  "apply-filter",
-                  "open-settings"
-                ],
-                "left_buttons": [
-                  "paste",
-                  "clear"
-                ],
-                "right_buttons": [
-                  "copy"
-                ]
-              },
-              "icon": "fanyi_baidu",
-              "title": "Fanyi Baidu"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,12 +188,15 @@
       "translate:Open translation view": false
     }
   },
-  "active": "a6b608df7e4c72a0",
+  "active": "c3333b626e791dcf",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-27 21.12.48.excalidraw.md",
     "references/An Introduction To Manifolds.pdf",
     "Excalidraw/homework.md",
-    "references/Drawing 2026-03-27 20.55.16.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-27 21.12.48.excalidraw.md",
+    "最优化.md",
+    "references/Riemannian Geometry do carmo.pdf",
+    "未命名.base",
+    "Excalidraw/Drawing 2026-03-27 20.55.16.excalidraw.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "第四周-坐标变换.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
