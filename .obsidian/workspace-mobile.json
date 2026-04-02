@@ -1,64 +1,96 @@
 {
   "main": {
-    "id": "a18ba57c8197c792",
+    "id": "49f9183bba6d097c",
     "type": "split",
     "children": [
       {
-        "id": "60891bd3abd3e51d",
+        "id": "7352a51a4a32968f",
         "type": "tabs",
         "children": [
           {
-            "id": "7eb8d16a0165a6cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "坐标变换(1).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "坐标变换(1)"
-            }
-          },
-          {
-            "id": "a860aa256c92ff6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "最优化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "最优化"
-            }
-          },
-          {
-            "id": "c5a5c02b4ac0d271",
+            "id": "021843280a73521f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-25 21.36.07.excalidraw.md"
+                "file": "Excalidraw/homework.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-25 21.36.07.excalidraw"
+              "title": "homework"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "64bd9e027687cbce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85ab759e09d83d27",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "references/An Introduction To Manifolds.pdf",
+                "page": 22,
+                "left": 88,
+                "top": 726,
+                "zoom": 0.7549911714934417
+              },
+              "icon": "lucide-file-text",
+              "title": "An Introduction To Manifolds"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bb2b93473db601af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6b608df7e4c72a0",
+            "type": "leaf",
+            "state": {
+              "type": "translator-view",
+              "state": {
+                "language_from": "auto",
+                "language_to": "zh",
+                "translation_service": "fanyi_baidu",
+                "auto_translate": false,
+                "apply_glossary": false,
+                "view_mode": 0,
+                "filter_mode": 0,
+                "show_attribution": false,
+                "top_buttons": [
+                  "change-service",
+                  "automatic-translation",
+                  "change-layout",
+                  "apply-filter",
+                  "open-settings"
+                ],
+                "left_buttons": [
+                  "paste",
+                  "clear"
+                ],
+                "right_buttons": [
+                  "copy"
+                ]
+              },
+              "icon": "fanyi_baidu",
+              "title": "Fanyi Baidu"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "455b7d29a969cc7b",
+    "id": "01ac3ea31383e52b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "4d56a951e11afbe1",
+        "id": "6039900857058233",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -71,7 +103,7 @@
         }
       },
       {
-        "id": "20f9b24045bebedd",
+        "id": "23b65dc334557bcf",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -88,7 +120,7 @@
         }
       },
       {
-        "id": "5161a5be83779cc2",
+        "id": "b453e1042dd5712e",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -103,7 +135,7 @@
         }
       },
       {
-        "id": "2f56ac1c0219da01",
+        "id": "f7d615f2c29ce442",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -117,7 +149,7 @@
         }
       },
       {
-        "id": "a12e9684fd0c6f7b",
+        "id": "a52a1a3e87588965",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -130,16 +162,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "8b38970924d9d90a",
+    "id": "3c93f2c021559da3",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "91f07a6af6a2ba0f",
+        "id": "c18e46432890e5dd",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2026-03-25 21.36.07.excalidraw.md",
+            "file": "Excalidraw/homework.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,12 +185,12 @@
         }
       },
       {
-        "id": "f9f5f5a39a3d9b8f",
+        "id": "f1a2deb81b6bb123",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "未命名.canvas",
+            "file": "Excalidraw/homework.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -167,12 +199,12 @@
         }
       },
       {
-        "id": "20bd8d58ba7ccce1",
+        "id": "98e56fc6037aee5d",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "未命名.canvas",
+            "file": "references/An Introduction To Manifolds.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -182,7 +214,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,22 +225,38 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "translate:Open translation view": false
     }
   },
-  "active": "c5a5c02b4ac0d271",
+  "active": "a6b608df7e4c72a0",
   "lastOpenFiles": [
-    "README.md",
-    "最优化.md",
-    "Excalidraw/Drawing 2026-03-25 21.36.07.excalidraw.md",
-    "Excalidraw",
-    "未命名.base",
-    "未命名.canvas",
-    "未命名",
-    "KFs and IMU.md",
-    "坐标变换(1).md",
+    "Excalidraw/Drawing 2026-03-27 21.12.48.excalidraw.md",
+    "references/An Introduction To Manifolds.pdf",
+    "Excalidraw/homework.md",
+    "references/Drawing 2026-03-27 20.55.16.excalidraw.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "第四周-坐标变换.md",
-    "未命名.md",
-    "未命名 1.base"
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "坐标变换(1).md",
+    "README.md"
   ]
 }
