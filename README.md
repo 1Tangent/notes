@@ -1,6 +1,3 @@
 # notes
-下载GTM series请搭配git LFS食用
 
-```git install lfs```
-
-notes
+目前这个项目更新为纯文件，书籍相关已转移至私有仓库
