@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "流形导论.md",
+                "file": "坐标变换(1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "流形导论"
+              "title": "坐标变换(1)"
             }
           },
           {
@@ -89,7 +89,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -247,17 +246,17 @@
   },
   "active": "d0897924cc092c14",
   "lastOpenFiles": [
+    "坐标变换(1).md",
+    "第四周-坐标变换.md",
     "流形导论.md",
+    "凸优化.md",
+    "数值优化.md",
     "KFs and IMU.md",
     "README.md",
-    "数值优化.md",
-    "凸优化.md",
     "非线性控制.md",
     "矩阵分析.md",
     "最优化.md",
-    "第四周-坐标变换.md",
     "assets",
-    "坐标变换(1).md",
     "Pasted image 20260408202844.png",
     "作业1.md",
     "Excalidraw/Drawing 2026-03-27 21.12.48.excalidraw.md",
