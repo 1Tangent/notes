@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -232,17 +233,17 @@
   },
   "active": "710bf0323ba67f35",
   "lastOpenFiles": [
+    "矩阵分析.md",
+    "坐标变换(1).md",
     "最优化.md",
     "数值优化.md",
     "凸优化.md",
     "一节.md",
-    "坐标变换(1).md",
     "第四周-坐标变换.md",
     "流形导论.md",
     "KFs and IMU.md",
     "README.md",
     "非线性控制.md",
-    "矩阵分析.md",
     "assets",
     "Pasted image 20260408202844.png",
     "作业1.md",
