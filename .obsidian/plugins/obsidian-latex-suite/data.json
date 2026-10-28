@@ -13,7 +13,7 @@
   "loadSnippetVariablesFromFile": false,
   "snippetsFileLocation": "",
   "snippetVariablesFileLocation": "",
-  "concealEnabled": true,
+  "concealEnabled": false,
   "concealRevealTimeout": 0,
   "concealLinewise": false,
   "concealMaps": "{\n\t\"not_remap\": {},\n\t\"cmd_symbols\": {},\n\t\"operators\": {},\n\t\"fractions\": {},\n\t\"greek\": {},\n\t\"map_super\": {},\n\t\"map_sub\": {},\n\t\"bar\": {},\n\t\"dot\": {},\n\t\"hat\": {},\n\t\"brackets\": {},\n\t\"leftrightBrackets\": {},\n\t\"mathbb\": {},\n\t\"mathscrcal\": {},\n\t\"mathfrak\": {}\n}",
