@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "坐标变换(1).md",
+                "file": "矩阵分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "坐标变换(1)"
+              "title": "矩阵分析"
             }
           },
           {
@@ -233,10 +233,10 @@
   },
   "active": "710bf0323ba67f35",
   "lastOpenFiles": [
-    "最优化.md",
-    "数值优化.md",
     "矩阵分析.md",
     "坐标变换(1).md",
+    "数值优化.md",
+    "最优化.md",
     "凸优化.md",
     "一节.md",
     "第四周-坐标变换.md",
