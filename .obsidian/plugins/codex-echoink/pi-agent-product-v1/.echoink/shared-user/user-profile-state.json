@@ -1,0 +1,10 @@
+{
+  "schema": "echoink.user-profile.v2",
+  "revision": 1,
+  "items": [],
+  "processedSources": [],
+  "deletionBarriers": [],
+  "legacyUserMigration": "done",
+  "lastProjectedUserHash": "90b832ee5a1169280774b5785cf20bb0dc4b3e32c7505ec04a5c8add8106ccd1",
+  "updatedAt": 1793692364935
+}
