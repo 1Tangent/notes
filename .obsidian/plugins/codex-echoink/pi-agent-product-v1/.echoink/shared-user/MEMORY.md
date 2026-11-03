@@ -1,6 +1,6 @@
 # Memory
 
-Revision: 1
+Revision: 2
 
 这是有上限的当前导航；完整内容按需通过 memory_search / memory_read 读取。
 
