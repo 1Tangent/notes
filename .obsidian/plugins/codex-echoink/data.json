@@ -109,33 +109,6 @@
   "activeApiProviderId": "provider-1793692836517-569el5",
   "apiProviders": [
     {
-      "id": "provider-default",
-      "providerId": "deepseek",
-      "runtimeProviderId": "deepseek",
-      "apiProtocol": "openai-completions",
-      "authMode": "api-key",
-      "name": "深度求索 / DeepSeek",
-      "baseUrl": "https://api.deepseek.com",
-      "models": [
-        {
-          "id": "deepseek-v4-flash",
-          "displayName": "DeepSeek-V4 Flash",
-          "input": [
-            "text"
-          ],
-          "toolCalling": true,
-          "reasoning": true,
-          "reasoningEnabled": true,
-          "contextWindow": 1000000,
-          "modelMaxTokens": 384000,
-          "maxOutputTokens": 384000,
-          "metadataSource": "preset"
-        }
-      ],
-      "defaultModelId": "deepseek-v4-flash",
-      "apiKey": ""
-    },
-    {
       "id": "provider-1793692836517-569el5",
       "providerId": "openai-codex",
       "runtimeProviderId": "openai-codex",
@@ -186,7 +159,7 @@
     "port": 0
   },
   "quickChat": {
-    "enabled": false,
+    "enabled": true,
     "hotkey": "CommandOrControl+Shift+E"
   },
   "homeModules": {
@@ -282,7 +255,7 @@
     "dreamRunsPerDay": 3,
     "dreamTokenBudget": 50000
   },
-  "resourceManagementTab": "skills",
+  "resourceManagementTab": "plugins",
   "knowledgeBase": {
     "initialized": false,
     "autoLinkEnabled": true,
@@ -997,6 +970,18 @@
         "selectedSkill": null,
         "selectedProviderSettingsId": "",
         "selectedModel": "",
+        "selectedPermission": "workspace-write",
+        "selectedMode": "agent",
+        "annotationFragments": []
+      },
+      "agent-8be98f67-e8b3-45e6-a290-2d694825b0f6": {
+        "text": "",
+        "attachments": [],
+        "noteMentions": [],
+        "annotations": [],
+        "selectedSkill": null,
+        "selectedProviderSettingsId": "provider-default",
+        "selectedModel": "deepseek-flash",
         "selectedPermission": "workspace-write",
         "selectedMode": "agent",
         "annotationFragments": []
