@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "矩阵分析.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "数值优化"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,10 +227,10 @@
       "codex-echoink:打开 EchoInk 工作台和 Agent 侧栏": false
     }
   },
-  "active": "710bf0323ba67f35",
+  "active": "f256ea4b9534885f",
   "lastOpenFiles": [
-    "矩阵分析.md",
     "数值优化.md",
+    "矩阵分析.md",
     "最优化.md",
     "assets/Numerical-optimization-1.png",
     "后文.md",
