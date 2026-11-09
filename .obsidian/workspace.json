@@ -25,13 +25,14 @@
             "id": "710bf0323ba67f35",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "视图"
+                "file": "数值优化.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "数值优化"
             }
           }
         ],
@@ -226,7 +227,7 @@
       "codex-echoink:打开 EchoInk 工作台和 Agent 侧栏": false
     }
   },
-  "active": "710bf0323ba67f35",
+  "active": "d11fc929019ef8d7",
   "lastOpenFiles": [
     "未命名.canvas",
     "未命名.base",
