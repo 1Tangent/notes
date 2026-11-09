@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -227,10 +228,10 @@
       "codex-echoink:打开 EchoInk 工作台和 Agent 侧栏": false
     }
   },
-  "active": "d11fc929019ef8d7",
+  "active": "710bf0323ba67f35",
   "lastOpenFiles": [
-    "未命名.canvas",
     "未命名.base",
+    "未命名.canvas",
     "数值优化.md",
     "2026-11-09.md",
     "矩阵分析.md",
