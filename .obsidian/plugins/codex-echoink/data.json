@@ -997,7 +997,7 @@
   "taskWorkspace": {
     "page": {
       "kind": "list",
-      "agentId": "agent-8be98f67-e8b3-45e6-a290-2d694825b0f6"
+      "agentId": "sol"
     },
     "newTaskDrafts": {
       "sol": {

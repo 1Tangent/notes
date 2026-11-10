@@ -3,5 +3,8 @@
   "cssTheme": "echoink-theme",
   "baseFontSize": 16,
   "translucency": true,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "hide-block-ids"
+  ]
 }
