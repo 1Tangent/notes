@@ -806,7 +806,7 @@
           "resourceId": "obsidian-cli",
           "uri": "echoink://vault/obsidian-cli",
           "version": "1.0.0",
-          "contentHash": "17353a8d5e97968f27d710f69e38c2318313782eaf4553feedfd864088e6cf5b",
+          "contentHash": "ee5062c9d1c365062cdec8e9abea1de44340fcecbafcbdffde69e2ba8831a4f3",
           "builtin": true,
           "contentSource": "builtin",
           "userModified": false,
@@ -941,7 +941,7 @@
     ],
     "importedFrom": {},
     "mcpConnections": {},
-    "lastScannedAt": 1793692340348,
+    "lastScannedAt": 1794391152559,
     "lastError": ""
   },
   "workspaceResources": {

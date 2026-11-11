@@ -6,6 +6,8 @@
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "hide-block-ids",
-    "extended-colorschemes"
-  ]
+    "extended-colorschemes",
+    "note-layout"
+  ],
+  "theme": "system"
 }

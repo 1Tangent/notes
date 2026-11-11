@@ -1,0 +1,25 @@
+/* Match the space above a heading to the paragraph spacing below it. */
+.markdown-preview-view {
+  --heading-spacing: var(--p-spacing);
+}
+
+/* Center image embeds at their rendered width in Reading view. */
+.markdown-preview-view .image-embed {
+  display: block;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  margin-inline: auto;
+}
+
+/* Markdown images can also render directly, without an embed wrapper. */
+.markdown-preview-view p > img,
+.markdown-preview-view p > a > img {
+  display: block;
+  margin-inline: auto;
+}
+
+/* Center image-only lines without adding height to the editor line. */
+.markdown-source-view.is-live-preview
+.cm-line:has(> .image-embed):not(:has(> :not(.image-embed, .cm-widgetBuffer, br))) {
+  text-align: center;
+}
