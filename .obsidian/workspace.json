@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -196,13 +195,13 @@
             }
           },
           {
-            "id": "c8f9b9680d8bc743",
+            "id": "7b95e08cc393454e",
             "type": "leaf",
             "state": {
               "type": "codex-for-obsidian-view",
               "state": {},
-              "icon": "feather",
-              "title": "Codex"
+              "icon": "lucide-ghost",
+              "title": "codex-for-obsidian-view"
             }
           }
         ],
