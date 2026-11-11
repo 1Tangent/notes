@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "矩阵分析"
             }
+          },
+          {
+            "id": "57e453d36968ffa1",
+            "type": "leaf",
+            "state": {
+              "type": "codex-echoink-home",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "工作台"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,10 +105,41 @@
             }
           }
         ]
+      },
+      {
+        "id": "2f209569e8707532",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60bd514570c43945",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "51cd1015193154fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数值优化.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 232.14453125
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -170,47 +212,21 @@
             }
           },
           {
-            "id": "51cd1015193154fd",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "流形导论.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "60bd514570c43945",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "7b95e08cc393454e",
+            "id": "442308b940713245",
             "type": "leaf",
             "state": {
               "type": "codex-for-obsidian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "codex-for-obsidian-view"
+              "icon": "feather",
+              "title": "Codex"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 292.625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,15 +239,25 @@
       "bases:新建数据库": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "codex-echoink:打开 EchoInk 工作台和 Agent 侧栏": false
+      "codex-echoink:打开 EchoInk 工作台和 Agent 侧栏": false,
+      "cmdr:打开设置": false
     }
   },
-  "active": "f256ea4b9534885f",
+  "active": "57e453d36968ffa1",
   "lastOpenFiles": [
     "矩阵分析.md",
     "数值优化.md",
+    "未命名 10",
+    "未命名 9",
+    "未命名 8",
+    "未命名 7",
+    "未命名 6",
+    "未命名 5",
+    "未命名 4",
+    "未命名 3",
+    "未命名 2",
+    "未命名 1",
     "后文.md",
-    "未命名.base",
     "未命名.canvas",
     "2026-11-09.md",
     "最优化.md",
@@ -244,7 +270,6 @@
     "KFs and IMU.md",
     "README.md",
     "非线性控制.md",
-    "assets",
     "Pasted image 20260408202844.png",
     "作业1.md",
     "Excalidraw/Drawing 2026-03-27 21.12.48.excalidraw.md",

@@ -257,6 +257,7 @@
   },
   "resourceManagementTab": "skills",
   "knowledgeBase": {
+    "separateDomainPairs": [],
     "initialized": false,
     "autoLinkEnabled": true,
     "folderBindings": {
@@ -964,6 +965,7 @@
         },
         "position": "",
         "positionDescription": "什么都能接，专门的活转给同事",
+        "companyApprovalMode": "user",
         "styleId": "execution",
         "disabledCapabilityIds": []
       },
@@ -982,16 +984,29 @@
           "knowledge",
           "web-search"
         ]
+      },
+      {
+        "id": "generalist",
+        "name": "通才",
+        "avatar": {
+          "kind": "preset",
+          "presetId": "bo"
+        },
+        "position": "",
+        "positionDescription": "没有专属模块的杂活都归我",
+        "styleId": "execution",
+        "disabledCapabilityIds": []
       }
     ],
+    "moduleOwnerMigrationVersion": 1,
     "moduleOwners": {
-      "journal": "sol",
-      "todos": "sol",
-      "finance": "sol",
+      "journal": "generalist",
+      "todos": "generalist",
+      "finance": "generalist",
       "knowledge-base": "agent-8be98f67-e8b3-45e6-a290-2d694825b0f6",
-      "english-diary": "sol",
-      "pdf-reading": "sol",
-      "review": "sol"
+      "english-diary": "generalist",
+      "pdf-reading": "generalist",
+      "review": "generalist"
     }
   },
   "taskWorkspace": {

@@ -1,10 +1,11 @@
 {
-  "accentColor": "#f20736",
-  "cssTheme": "echoink-theme",
+  "accentColor": "#fa0000",
+  "cssTheme": "AnuPpuccin",
   "baseFontSize": 16,
   "translucency": true,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "hide-block-ids"
+    "hide-block-ids",
+    "extended-colorschemes"
   ]
 }
