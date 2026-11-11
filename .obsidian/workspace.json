@@ -210,19 +210,9 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "442308b940713245",
-            "type": "leaf",
-            "state": {
-              "type": "codex-for-obsidian-view",
-              "state": {},
-              "icon": "feather",
-              "title": "Codex"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,7 +233,42 @@
       "cmdr:打开设置": false
     }
   },
-  "active": "57e453d36968ffa1",
+  "floating": {
+    "id": "275ea7b8555e9836",
+    "type": "floating",
+    "children": [
+      {
+        "id": "28090ed91812191d",
+        "type": "window",
+        "children": [
+          {
+            "id": "935e6fb081aaaa67",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "442308b940713245",
+                "type": "leaf",
+                "state": {
+                  "type": "codex-for-obsidian-view",
+                  "state": {},
+                  "icon": "feather",
+                  "title": "Codex"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1470,
+        "y": 253,
+        "width": 600,
+        "height": 640,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "442308b940713245",
   "lastOpenFiles": [
     "矩阵分析.md",
     "数值优化.md",

@@ -160,7 +160,7 @@
   },
   "quickChat": {
     "enabled": true,
-    "hotkey": "CommandOrControl+Shift+E"
+    "hotkey": "Cmd+A"
   },
   "homeModules": {
     "recent-notes": true,
