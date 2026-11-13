@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,7 +245,7 @@
       "cmdr:打开设置": false
     }
   },
-  "active": "c04aa29682ad597a",
+  "active": "a2d8e1e6a4201ad7",
   "lastOpenFiles": [
     "凸优化.md",
     "数值优化.md",
