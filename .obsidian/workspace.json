@@ -34,16 +34,6 @@
               "icon": "lucide-file",
               "title": "数值优化"
             }
-          },
-          {
-            "id": "c04aa29682ad597a",
-            "type": "leaf",
-            "state": {
-              "type": "codex-echoink-home",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "工作台"
-            }
           }
         ],
         "currentTab": 1
@@ -140,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.14453125,
-    "collapsed": true
+    "width": 232.14453125
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -212,23 +201,14 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "09212c1a5a3a4d7e",
-            "type": "leaf",
-            "state": {
-              "type": "codex-for-obsidian-view",
-              "state": {},
-              "icon": "feather",
-              "title": "Codex"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 310.78515625
+    "width": 310.78515625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
