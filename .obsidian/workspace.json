@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "数值优化"
             }
+          },
+          {
+            "id": "c04aa29682ad597a",
+            "type": "leaf",
+            "state": {
+              "type": "codex-echoink-home",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "工作台"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.14453125
+    "width": 232.14453125,
+    "collapsed": true
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -165,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "流形导论.md",
+                "file": "数值优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -201,9 +212,19 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "09212c1a5a3a4d7e",
+            "type": "leaf",
+            "state": {
+              "type": "codex-for-obsidian-view",
+              "state": {},
+              "icon": "feather",
+              "title": "Codex"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -224,45 +245,11 @@
       "cmdr:打开设置": false
     }
   },
-  "floating": {
-    "id": "70314bc0453d1b3b",
-    "type": "floating",
-    "children": [
-      {
-        "id": "88a466cf288593d3",
-        "type": "window",
-        "children": [
-          {
-            "id": "7253740cf2f2ce0e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "02d1d546088da9df",
-                "type": "leaf",
-                "state": {
-                  "type": "codex-for-obsidian-view",
-                  "state": {},
-                  "icon": "feather",
-                  "title": "Codex"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1470,
-        "y": 253,
-        "width": 600,
-        "height": 640,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "02d1d546088da9df",
+  "active": "c04aa29682ad597a",
   "lastOpenFiles": [
-    "矩阵分析.md",
+    "凸优化.md",
     "数值优化.md",
+    "矩阵分析.md",
     "第四周-坐标变换.md",
     "未命名 10",
     "未命名 9",
@@ -280,7 +267,6 @@
     "最优化.md",
     "assets/Numerical-optimization-1.png",
     "坐标变换(1).md",
-    "凸优化.md",
     "一节.md",
     "流形导论.md",
     "KFs and IMU.md",

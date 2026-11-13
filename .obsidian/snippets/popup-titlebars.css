@@ -16,10 +16,27 @@ body.mod-macos.is-popout-modal:has(> .modal.mod-settings) > .titlebar {
   --titlebar-text-color-focused: var(--popup-titlebar-text);
 }
 
-/* Fill the gutter around the AI card as well as the draggable header. */
-body.mod-macos.is-popout-window.echoink-quick-chat-popout,
-body.mod-macos.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header {
+/* Cover the native window background behind the AI card. */
+body.mod-macos.is-popout-window.echoink-quick-chat-popout {
   background-color: var(--popup-titlebar-background);
+}
+
+/* Inset the whole card and keep the macOS controls aligned with its header. */
+body.mod-macos.is-popout-window.echoink-quick-chat-popout.anp-card-layout {
+  --echoink-card-top-inset: 8px;
+  /* Obsidian parses this value as pixels and uses half of it for positioning. */
+  --traffic-lights-offset-y: 56px;
+}
+
+body.mod-macos.is-popout-window.echoink-quick-chat-popout.anp-card-layout .workspace-leaf-content[data-type="codex-for-obsidian-view"] {
+  margin-block-start: var(--echoink-card-top-inset);
+}
+
+/* Share the card background and inset the controls inside its rounded border. */
+body.mod-macos.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header {
+  background-color: transparent;
+  padding-block: 8px 6px;
+  padding-inline-end: 18px;
 }
 
 body.mod-macos.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header .codex-title-text {
