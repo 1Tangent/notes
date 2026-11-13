@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4b9f64863eea94ff",
+        "id": "ebca5f0bdcf1a62c",
         "type": "tabs",
         "children": [
           {
-            "id": "f256ea4b9534885f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数值优化.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数值优化"
-            }
-          },
-          {
-            "id": "5493854f59c2e208",
+            "id": "16ed7c2f03d3edad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,16 +22,21 @@
             }
           },
           {
-            "id": "57e453d36968ffa1",
+            "id": "a2d8e1e6a4201ad7",
             "type": "leaf",
             "state": {
-              "type": "codex-echoink-home",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "工作台"
+              "type": "markdown",
+              "state": {
+                "file": "数值优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "数值优化"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,11 +97,11 @@
         ]
       },
       {
-        "id": "2f209569e8707532",
+        "id": "cb1b0a0e227407e6",
         "type": "tabs",
         "children": [
           {
-            "id": "60bd514570c43945",
+            "id": "6129cf006201d296",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -120,7 +111,7 @@
             }
           },
           {
-            "id": "51cd1015193154fd",
+            "id": "6018fe181d5a73ba",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -134,7 +125,8 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -233,19 +225,19 @@
     }
   },
   "floating": {
-    "id": "ee75602d6bd860ef",
+    "id": "70314bc0453d1b3b",
     "type": "floating",
     "children": [
       {
-        "id": "8f725dd5fec8d291",
+        "id": "88a466cf288593d3",
         "type": "window",
         "children": [
           {
-            "id": "780bb8eec4ec0a45",
+            "id": "7253740cf2f2ce0e",
             "type": "tabs",
             "children": [
               {
-                "id": "f57ac9e283b3e956",
+                "id": "02d1d546088da9df",
                 "type": "leaf",
                 "state": {
                   "type": "codex-for-obsidian-view",
@@ -258,20 +250,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 743,
-        "y": 193,
-        "width": 547,
-        "height": 622,
+        "x": 1470,
+        "y": 253,
+        "width": 600,
+        "height": 640,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "f57ac9e283b3e956",
+  "active": "02d1d546088da9df",
   "lastOpenFiles": [
-    "第四周-坐标变换.md",
-    "数值优化.md",
     "矩阵分析.md",
+    "数值优化.md",
+    "第四周-坐标变换.md",
     "未命名 10",
     "未命名 9",
     "未命名 8",

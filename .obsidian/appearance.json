@@ -7,7 +7,9 @@
   "enabledCssSnippets": [
     "hide-block-ids",
     "extended-colorschemes",
-    "note-layout"
+    "note-layout",
+    "echoink-window-drag",
+    "popup-titlebars"
   ],
   "theme": "system"
 }

@@ -1,0 +1,27 @@
+/* Match Settings and EchoInk to the workspace tabs on macOS. */
+body.mod-macos:is(.is-popout-modal:has(> .modal.mod-settings), .is-popout-window.echoink-quick-chat-popout) {
+  --popup-titlebar-background: var(--tab-container-background, var(--background-secondary));
+  --popup-titlebar-text: var(--tab-text-color-focused-active-current, var(--text-normal));
+}
+
+/* Pop-outs don't have the main window's native vibrancy. Use an opaque
+   equivalent of the neutral tab strip that follows light and dark mode. */
+body.mod-macos.is-translucent:is(.is-popout-modal:has(> .modal.mod-settings), .is-popout-window.echoink-quick-chat-popout) {
+  --popup-titlebar-background: color-mix(in srgb, var(--mono-0) 89%, var(--mono-100));
+}
+
+body.mod-macos.is-popout-modal:has(> .modal.mod-settings) > .titlebar {
+  background-color: var(--popup-titlebar-background);
+  --titlebar-text-color: var(--popup-titlebar-text);
+  --titlebar-text-color-focused: var(--popup-titlebar-text);
+}
+
+/* Fill the gutter around the AI card as well as the draggable header. */
+body.mod-macos.is-popout-window.echoink-quick-chat-popout,
+body.mod-macos.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header {
+  background-color: var(--popup-titlebar-background);
+}
+
+body.mod-macos.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header .codex-title-text {
+  color: var(--popup-titlebar-text);
+}

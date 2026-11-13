@@ -1,0 +1,12 @@
+/* Keep EchoInk's full-window overlay out of Electron's drag-region calculation. */
+body.is-hidden-frameless > .echoink-selection-overlay {
+  app-region: initial !important;
+}
+
+/* The agent view hides its header in the sidebar. The pop-out needs it for dragging. */
+body.is-popout-window.echoink-quick-chat-popout .echoink-agent-tasks > .codex-header {
+  display: flex;
+  align-items: center;
+  min-block-size: var(--header-height, 40px);
+  padding-block: 4px;
+}
