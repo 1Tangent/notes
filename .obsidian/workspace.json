@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数值优化.md",
+                "file": "矩阵分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数值优化"
+              "title": "矩阵分析"
             }
           }
         ],
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数值优化.md",
+                "file": "矩阵分析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -227,8 +227,8 @@
   },
   "active": "a2d8e1e6a4201ad7",
   "lastOpenFiles": [
-    "凸优化.md",
     "数值优化.md",
+    "凸优化.md",
     "矩阵分析.md",
     "第四周-坐标变换.md",
     "未命名 10",
