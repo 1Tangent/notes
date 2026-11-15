@@ -11,5 +11,6 @@
     "echoink-window-drag",
     "popup-titlebars"
   ],
-  "theme": "system"
+  "theme": "system",
+  "showRibbon": true
 }
