@@ -1,11 +1,11 @@
 {
   "schema": "echoink.dream.v1",
-  "revision": 35,
-  "lastRunAt": 1794925269093,
+  "revision": 37,
+  "lastRunAt": 1794997714850,
   "lastSuccessAt": 1793692364941,
   "lastProcessedMemoryRevision": 0,
   "processedMemorySources": [],
   "pendingMemoryIds": [],
   "backfillCursor": null,
-  "updatedAt": 1794925269093
+  "updatedAt": 1794997714850
 }
