@@ -1,7 +1,35 @@
 {
+  "reconciliation": {
+    "checks": [],
+    "experiences": [],
+    "events": [],
+    "calls": [],
+    "diagnostic": {
+      "runId": "dream_1795160823983_b8c56b22-9eca-49e4-a3f0-4031b49ac54d",
+      "checkedExperiences": 0,
+      "checkedMemories": 0,
+      "confirmed": 0,
+      "corrected": 0,
+      "obsolete": 0,
+      "uncertain": 0,
+      "skipped": 0,
+      "reasons": {},
+      "modelCalls": 0
+    }
+  },
+  "runSummary": {
+    "startedAt": 1795160823983,
+    "finishedAt": 1795160823993,
+    "batches": 0,
+    "processedMemories": 0,
+    "evaluatedExperiences": 0,
+    "modelCalls": 0,
+    "rateLimitRetries": 0,
+    "stopReason": "completed"
+  },
   "schema": "echoink.dream.v1",
   "revision": 40,
-  "lastRunAt": 1795093701038,
+  "lastRunAt": 1795160823993,
   "lastSuccessAt": 1793692364941,
   "lastProcessedMemoryRevision": 0,
   "processedMemorySources": [],

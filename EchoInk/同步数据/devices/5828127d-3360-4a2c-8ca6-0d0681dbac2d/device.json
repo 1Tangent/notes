@@ -1,0 +1,23 @@
+{
+  "schema": "echoink.sync.device.v1",
+  "deviceId": "5828127d-3360-4a2c-8ca6-0d0681dbac2d",
+  "rev": 1,
+  "updatedAt": 1795115201835,
+  "payload": {
+    "name": "Mac Pro",
+    "kind": "desktop",
+    "formatVersion": 1,
+    "lastSeenAt": 1795115201835,
+    "rev": 1,
+    "migration": {
+      "company": {
+        "fingerprint": "0:0:0:[]",
+        "completedAt": 1795115201802
+      },
+      "conversations": {
+        "fingerprint": "v1:0",
+        "completedAt": 1795115201835
+      }
+    }
+  }
+}

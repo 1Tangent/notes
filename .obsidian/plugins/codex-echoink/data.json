@@ -1,10 +1,18 @@
 {
   "weatherCity": null,
+  "news": {
+    "subscriptions": [],
+    "dismissedAnnouncement": ""
+  },
   "workbenchCheckin": {
     "signedDates": [],
     "agentDates": []
   },
   "workbenchOnboardingDismissed": false,
+  "workbenchDismissals": {
+    "version": 1,
+    "entries": {}
+  },
   "generationTemplates": [
     {
       "id": "brief",
@@ -63,6 +71,19 @@
       }
     ]
   },
+  "noteComments": {
+    "enabled": true,
+    "agentId": "",
+    "providerSettingsId": "",
+    "modelId": "",
+    "translateTo": "auto",
+    "explainPrompt": "用三句话以内解释这段话在本文里的意思，必要时举一个例子。",
+    "toolbar": {
+      "explain": true,
+      "translate": true,
+      "related": true
+    }
+  },
   "inlineAgent": {
     "enabled": true,
     "trigger": "@",
@@ -106,10 +127,443 @@
   },
   "autoArchiveDays": 0,
   "providerMode": "custom-api",
-  "activeApiProviderId": "provider-1793692836517-569el5",
+  "activeApiProviderId": "provider-1795115864557-e3npiv",
   "apiProviders": [
     {
-      "id": "provider-1793692836517-569el5",
+      "id": "provider-1795115203043-yx22yg",
+      "providerId": "xiaoecho",
+      "runtimeProviderId": "xiaoecho",
+      "apiProtocol": "openai-completions",
+      "authMode": "account",
+      "name": "小echo / xiaoecho",
+      "baseUrl": "https://echoink.cn/api/xiaoecho",
+      "models": [
+        {
+          "id": "auto",
+          "displayName": "auto",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 1000000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "auto",
+            "typicalPoints": "0.30",
+            "displayName": "auto",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 1000000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "gpt-6.1-sol",
+          "displayName": "GPT-6.1 Sol ×0.7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "gpt-6.1-sol",
+            "typicalPoints": "0.20",
+            "displayName": "GPT-6.1 Sol ×0.7",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "gpt-6-sol",
+          "displayName": "GPT-6 Sol ×0.7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "gpt-6-sol",
+            "typicalPoints": "0.20",
+            "displayName": "GPT-6 Sol ×0.7",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "gpt-6-astra",
+          "displayName": "GPT-6 Astra ×3.4",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "gpt-6-astra",
+            "typicalPoints": "0.88",
+            "displayName": "GPT-6 Astra ×3.4",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "claude-sonnet-5-5",
+          "displayName": "Claude Sonnet 5.5 ×1.6",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "claude-sonnet-5-5",
+            "typicalPoints": "0.41",
+            "displayName": "Claude Sonnet 5.5 ×1.6",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "claude-opus-5-5",
+          "displayName": "Claude Opus 5.5 ×3.2",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "claude-opus-5-5",
+            "typicalPoints": "0.82",
+            "displayName": "Claude Opus 5.5 ×3.2",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "qwen3.8-max",
+          "displayName": "Qwen 3.8 Max ×10.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "qwen3.8-max",
+            "typicalPoints": "2.73",
+            "displayName": "Qwen 3.8 Max ×10.5",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "kimi-k3.1-pro",
+          "displayName": "Kimi K3.1 Pro ×15",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "kimi-k3.1-pro",
+            "typicalPoints": "3.90",
+            "displayName": "Kimi K3.1 Pro ×15",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "glm-5.3",
+          "displayName": "GLM 5.3 ×7.5",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "glm-5.3",
+            "typicalPoints": "1.95",
+            "displayName": "GLM 5.3 ×7.5",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "glm-5.3-flash",
+          "displayName": "GLM 5.3 Flash ×0.8",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "glm-5.3-flash",
+            "typicalPoints": "0.20",
+            "displayName": "GLM 5.3 Flash ×0.8",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "glm-5.3-flashx",
+          "displayName": "GLM 5.3 FlashX ×3.9",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "glm-5.3-flashx",
+            "typicalPoints": "1.02",
+            "displayName": "GLM 5.3 FlashX ×3.9",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "hy4-preview",
+          "displayName": "HY4 Preview ×5.3",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "hy4-preview",
+            "typicalPoints": "1.36",
+            "displayName": "HY4 Preview ×5.3",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "grok-4.6",
+          "displayName": "Grok 4.6 ×0.7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "grok-4.6",
+            "typicalPoints": "0.18",
+            "displayName": "Grok 4.6 ×0.7",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "grok-4.7",
+          "displayName": "Grok 4.7 ×0.7",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "grok-4.7",
+            "typicalPoints": "0.18",
+            "displayName": "Grok 4.7 ×0.7",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        },
+        {
+          "id": "gemini-3.8-flash-tiered",
+          "displayName": "Gemini 3.8 Flash ×1",
+          "input": [
+            "text",
+            "image"
+          ],
+          "toolCalling": true,
+          "reasoning": false,
+          "reasoningEnabled": false,
+          "contextWindow": 200000,
+          "modelMaxTokens": 16384,
+          "maxOutputTokens": 16384,
+          "metadataSource": "discovery",
+          "discovery": {
+            "id": "gemini-3.8-flash-tiered",
+            "typicalPoints": "0.26",
+            "displayName": "Gemini 3.8 Flash ×1",
+            "input": [
+              "text",
+              "image"
+            ],
+            "toolCalling": true,
+            "reasoning": false,
+            "contextWindow": 200000,
+            "modelMaxTokens": 16384
+          }
+        }
+      ],
+      "defaultModelId": "auto",
+      "apiKey": ""
+    },
+    {
+      "id": "provider-1795115864557-e3npiv",
       "providerId": "openai-codex",
       "runtimeProviderId": "openai-codex",
       "apiProtocol": "openai-codex-responses",
@@ -131,7 +585,7 @@
           "modelMaxTokens": 128000,
           "maxOutputTokens": 128000,
           "metadataSource": "preset",
-          "reasoningEffort": "max"
+          "reasoningEffort": "medium"
         }
       ],
       "defaultModelId": "gpt-5.6-sol",
@@ -150,6 +604,17 @@
   "defaultMode": "agent",
   "autoOpen": false,
   "autoOpenHome": false,
+  "syncMirrorEnabled": false,
+  "cloudSync": {
+    "enabled": false,
+    "excludedFolders": [],
+    "includeAttachments": true,
+    "deviceName": ""
+  },
+  "smartJudgment": {
+    "enabled": true,
+    "introSeen": false
+  },
   "mcpServer": {
     "enabled": false,
     "knowledge": true,

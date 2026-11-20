@@ -1,0 +1,11 @@
+{
+  "schema": "echoink.sync.company.v1",
+  "deviceId": "5828127d-3360-4a2c-8ca6-0d0681dbac2d",
+  "rev": 1,
+  "updatedAt": 1795115201800,
+  "payload": {
+    "projects": [],
+    "dispatches": [],
+    "events": []
+  }
+}
