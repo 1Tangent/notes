@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "数值优化"
             }
+          },
+          {
+            "id": "5aac7a4b7ff0b95a",
+            "type": "leaf",
+            "state": {
+              "type": "codex-echoink-home",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "工作台"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.14453125
+    "width": 232.14453125,
+    "collapsed": true
   },
   "right": {
     "id": "3fc9935447ea7c39",
@@ -193,8 +205,8 @@
             "state": {
               "type": "codex-for-obsidian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "codex-for-obsidian-view"
+              "icon": "feather",
+              "title": "Codex"
             }
           }
         ],
@@ -202,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.78515625,
-    "collapsed": true
+    "width": 310.78515625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,7 +231,7 @@
       "cmdr:打开设置": false
     }
   },
-  "active": "16ed7c2f03d3edad",
+  "active": "d37c826c0a479b65",
   "lastOpenFiles": [
     "最优化.md",
     "凸优化.md",

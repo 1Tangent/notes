@@ -708,14 +708,14 @@
     "completedAt": 1793692371745,
     "paperGuideDismissedAt": 1793692378646,
     "knowledgeReminderDismissedAt": 0,
+    "onboardingGuideDone": [
+      "appearance"
+    ],
     "lastCheckedAt": 1793692371745,
     "dismissedVersion": "onboarding-v3",
     "tutorialVersion": "onboarding-v3",
     "onboardingAgentId": "agent-8be98f67-e8b3-45e6-a290-2d694825b0f6",
-    "tutorialStep": "sidebar",
-    "onboardingGuideDone": [
-      "appearance"
-    ]
+    "tutorialStep": "sidebar"
   },
   "memory": {
     "useLongTermMemory": true,
