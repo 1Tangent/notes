@@ -712,7 +712,10 @@
     "dismissedVersion": "onboarding-v3",
     "tutorialVersion": "onboarding-v3",
     "onboardingAgentId": "agent-8be98f67-e8b3-45e6-a290-2d694825b0f6",
-    "tutorialStep": "sidebar"
+    "tutorialStep": "sidebar",
+    "onboardingGuideDone": [
+      "appearance"
+    ]
   },
   "memory": {
     "useLongTermMemory": true,
