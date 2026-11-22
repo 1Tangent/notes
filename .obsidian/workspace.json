@@ -31,8 +31,7 @@
               "title": "工作台"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,7 +230,7 @@
       "cmdr:打开设置": false
     }
   },
-  "active": "d37c826c0a479b65",
+  "active": "16ed7c2f03d3edad",
   "lastOpenFiles": [
     "最优化.md",
     "凸优化.md",
