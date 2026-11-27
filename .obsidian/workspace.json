@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "矩阵分析"
             }
-          },
-          {
-            "id": "5aac7a4b7ff0b95a",
-            "type": "leaf",
-            "state": {
-              "type": "codex-echoink-home",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "工作台"
-            }
           }
         ]
       }

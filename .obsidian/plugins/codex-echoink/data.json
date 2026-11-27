@@ -9,6 +9,19 @@
     "agentDates": []
   },
   "workbenchOnboardingDismissed": false,
+  "workbenchNavigation": {
+    "order": [
+      "journal",
+      "todos",
+      "finance",
+      "knowledge-base",
+      "english-diary",
+      "pdf-reading",
+      "experts",
+      "news"
+    ],
+    "hidden": []
+  },
   "workbenchDismissals": {
     "version": 1,
     "entries": {}
@@ -614,6 +627,10 @@
   "smartJudgment": {
     "enabled": true,
     "introSeen": false
+  },
+  "diaryPersona": {
+    "results": {},
+    "seen": []
   },
   "mcpServer": {
     "enabled": false,
@@ -1467,6 +1484,7 @@
       }
     ],
     "moduleOwnerMigrationVersion": 1,
+    "capabilityMigrationVersion": 1,
     "moduleOwners": {
       "journal": "generalist",
       "todos": "generalist",
